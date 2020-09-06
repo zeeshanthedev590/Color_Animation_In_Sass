@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+h1,
+p {
+  font-family: "Segoe UI";
+  color: white;
+  font-size: 59px;
+}
+
+p {
+  font-size: 39px;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #2ecc71;
+}
+
+.color {
+  -webkit-animation: colors 1s linear;
+          animation: colors 1s linear;
+}
+
+@-webkit-keyframes colors {
+  0% {
+    background: red;
+  }
+  50% {
+    background: green;
+  }
+  100% {
+    background: #5a5afc;
+  }
+}
+
+@keyframes colors {
+  0% {
+    background: red;
+  }
+  50% {
+    background: green;
+  }
+  100% {
+    background: #5a5afc;
+  }
+}
+/*# sourceMappingURL=style.css.map */
